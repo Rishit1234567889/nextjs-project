@@ -4,7 +4,7 @@ import {HomePage} from '../src/components/home/home'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export default function pages({data}) {
+export default function pages({...data}) {
   
   return (
     <>
